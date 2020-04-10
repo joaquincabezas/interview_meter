@@ -113,7 +113,7 @@ def main():
     input_file = args.file
     show_video = args.show
 
-    project_name = input_file[2:-4]
+    project_name = input_file[0:-4]
 
     # Open the input file video and return also the total number of frames
     cap, total_frames, frames_per_sec = open_video(input_file)
