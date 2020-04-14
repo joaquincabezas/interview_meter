@@ -20,6 +20,14 @@
     The script generates simple stats and a file VIDEOFILE.csv to further analyze stats
     Please see the Notebook in the project to analyze and create plots
 
+    TODO: 
+        1. Automatic scene change detection
+        2. Classifier for different scenes
+        3. Background removal
+        4. Face detection
+        5. Face identification
+
+
 """
 
 import argparse
